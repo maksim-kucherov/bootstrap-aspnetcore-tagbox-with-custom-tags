@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace tagbox_with_custom_tags
+namespace TagBoxWithCustomTags
 {
     public class Program
     {
