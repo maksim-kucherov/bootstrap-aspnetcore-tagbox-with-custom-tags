@@ -18,12 +18,14 @@ namespace TagBoxWithCustomTags
         {
             services.AddDevExpressControls();
             services.AddMvc();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseDevExpressControls();
+            app.UseSession();
             app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
             if (env.IsDevelopment())

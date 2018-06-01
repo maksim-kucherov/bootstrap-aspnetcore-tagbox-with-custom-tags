@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class HomeController : Controller
+namespace TagBoxWithCustomTags.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
+        public IActionResult Index()
+        {
+            return View(DataContext.GetEmployees(HttpContext));
+        }
     }
 }

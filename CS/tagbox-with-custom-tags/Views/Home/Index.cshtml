@@ -1,1 +1,18 @@
-<h1>Home Index Page</h1>
+@model IEnumerable<Employee>
+<h1>Employees</h1>
+<ul class="list-group">
+@foreach(var employee in Model) {
+    <li class="list-group-item clearfix">
+        <span class="float-left">
+            <b>Employee #@employee.Id</b><br/>
+            Roles: 
+            @foreach(var role in employee.Roles) {
+                <span class="badge badge-info">@role.Text</span>
+            }
+        </span>
+        <span class="float-right">
+            <a href='@Url.Action("Employee", "Edit", new { employeeID = @employee.Id })' class="btn btn-outline-primary">Edit</a>
+        </span>
+    </li>
+}
+</ul>
