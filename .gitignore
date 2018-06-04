@@ -307,4 +307,4 @@ TesterMetadata.xml
 # Backup files
 .bak
 
-/CS/tagbox-with-custom-tags/wwwroot/lib
+/CS/wwwroot/lib

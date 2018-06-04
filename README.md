@@ -2,13 +2,15 @@
 This example demonstrates how to use the [`BootstrapTagBoxValues<TKey>`](http://newdoc.devexpress.devx/ASPNETCoreBootstrap/DevExpress.AspNetCore.Bootstrap.BootstrapTagBoxValues-1?tabs=tabid-csharp) class when a TagBox control allows custom tags.
 
 ## Preview
-![Preview](https://github.com/maksim-kucherov/bootstrap-aspnetcore-tagbox-with-custom-tags/blob/18.1.3+/Media/preview.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/maksim-kucherov/bootstrap-aspnetcore-tagbox-with-custom-tags/blob/18.1.3+/Media/preview.gif?raw=true">
+</p>
 
 ## How to run
 1. Clone this repository.
 2. Set the current directory in the cloned repository.
 ```cmd
-cd cs\tagbox-with-custom-tags\
+cd cs
 ```
 3. Install npm packages.
 ```cmd
