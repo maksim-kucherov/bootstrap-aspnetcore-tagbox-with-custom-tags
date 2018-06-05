@@ -6,22 +6,11 @@ This example demonstrates how to use the [`BootstrapTagBoxValues<TKey>`](http://
   <img src="https://github.com/maksim-kucherov/bootstrap-aspnetcore-tagbox-with-custom-tags/blob/18.1.3+/Media/preview.gif?raw=true">
 </p>
 
-## Required steps:
-1. Clone this repository.
-2. Change the working directory to the ASP.NET Core project folder within the cloned repository.
+## Running via the CLI:
 ```cmd
 cd cs
-```
-3. Install npm packages.
-```cmd
 npm i
-```
-4. Build the project.
-```cmd
 dotnet build
-```
-5. Run the project.
-```cmd
 dotnet run
 ```
 
