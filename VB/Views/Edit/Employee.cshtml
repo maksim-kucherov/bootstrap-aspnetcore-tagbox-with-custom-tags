@@ -1,0 +1,17 @@
+@model EmployeeViewModel
+
+<h2>Employee #@Model.Id</h2>
+<form method="post">
+    @(Html.DevExpress()
+        .BootstrapTagBoxFor(m => m.Roles)
+        .Caption("Role")
+        .AllowCustomTags(true)
+        .ValueField("ID")
+        .TextField("Text")
+        .Bind(DataContext.GetRoles(Context)))
+
+    @Html.HiddenFor(m => m.Id)
+    <br />
+    <button type="submit" class="btn btn-outline-success">Save</button>
+    <a href='@Url.Action("Index", "Home")' class="btn btn-outline-secondary">Cancel</a>
+</form>
