@@ -9,7 +9,6 @@ This example demonstrates how to use the [`BootstrapTagBoxValues<TKey>`](http://
 ## Running via the CLI:
 ```cmd
 cd cs
-npm i
 dotnet build
 dotnet run
 ```
